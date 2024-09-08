@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var Mark = {
+            name: "Mark",
+            Weight: 78,
+            Height: 1.69
+        }
+
+        var John = {
+            name: "John",
+            Weight: 92,
+            Height: 1.95
+        }
+        BmiMark = Mark.Weight / Mark.Height ** 2;
+        BmiJohn = John.Weight / John.Height ** 2;
+
+        if (BmiMark > BmiJohn) {
+            console.log(`Chỉ số BMI của Mark là ${BmiMark} cao hơn John ${BmiJohn} !`)
+        }
+        else console.log(`Chỉ số BMI của John là ${BmiJohn} cao hơn John ${BmiMark} !`)
+    </script>
+</body>
+
+</html>
